@@ -4,7 +4,7 @@
 ### 安装
 
 ```
-pip install git+https://github.com/yubang/applepush
+pip install applepush
 ```
 
 ### 使用
@@ -34,5 +34,15 @@ print apns.single_push('苹果设备token', "推送内容")
 }
 
 status请参考：https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html#//apple_ref/doc/uid/TP40008194-CH11-SW15
+
+```
+
+### 打印帮助文档
+```
+
+from applepush import ApplePush
+
+apns = ApplePush('证书路径', 'bundle ID')
+apns.doc()
 
 ```

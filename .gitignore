@@ -1,3 +1,5 @@
 *.*~
 *.pyc
 .idea
+dist
+applepush.egg-info

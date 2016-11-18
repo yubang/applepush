@@ -80,4 +80,6 @@ class ApplePush:
         resp = conn.get_response()
         return self.make_response(resp)
 
-
+    @staticmethod
+    def doc():
+        print "具体请参考：https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html#//apple_ref/doc/uid/TP40008194-CH11-SW1"
